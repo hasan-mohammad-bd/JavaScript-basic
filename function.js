@@ -117,3 +117,7 @@ function vag(num8,num9) {
 var vagfol = vag(50,10);
 console.log(vagfol);
 
+
+
+
+
