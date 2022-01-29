@@ -71,4 +71,49 @@ var money = 300; //the value can be in a variable.
 var singara = bringSingara(money); //calling the function //start from here
 console.log("Ai nen singara", singara);
 
+// multiple parameter
+function addTwo(num1, num2) { //the first parameter will take the first declered value
+    console.log(num1, num2);
+    var total = num1 + num2
+    return total;
+}
+
+var firstNumber = 35;
+var seconNumber = 37;
+var result = addTwo(firstNumber, seconNumber);
+console.log("result value is:",result);
+
+// debug: see what is happning
+// selecte the line with red dot, run the debug with debug button f10 is for go to next line
+//f11 go into next line
+
+// Multiplication function
+
+function multiplay(num3, num4) {
+    var result = num3 + num4;
+    return result;
+}
+
+var tatal = multiplay(4,23);
+console.log("total after Multiplication", tatal);
+
+// bioge
+
+function bioge(num5, num6) {
+    var result = num5 - num6;
+    return result;
+}
+
+var viogefol = bioge(55,5);
+console.log(viogefol);
+
+//vag
+
+function vag(num8,num9) {
+    var result = num8 / num9;
+    return result;
+}
+
+var vagfol = vag(50,10);
+console.log(vagfol);
 
