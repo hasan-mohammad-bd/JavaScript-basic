@@ -57,4 +57,18 @@ startFan();
 // function can be call anytime, any where.
 
 
+// function parameter, funtion return
+
+// input parameter
+function bringSingara(taka) {
+    console.log("singarer jonno dise ",taka)
+    console.log("mamaisngara den");
+    var singaraPrice = 10;
+    var singaraQuantity = taka / singaraPrice;
+    return singaraQuantity;
+}
+var money = 300; //the value can be in a variable.
+var singara = bringSingara(money); //calling the function //start from here
+console.log("Ai nen singara", singara);
+
 
