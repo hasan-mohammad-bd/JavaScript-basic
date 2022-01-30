@@ -2,7 +2,7 @@
 //---------------------------------------------------------
 //function can be called anytime if we need a task performed by the function.
 
-//function can be called 3 ways(invoke way is to called the function by its name )
+//function can be called 3 ways
 
 //will take input
 
