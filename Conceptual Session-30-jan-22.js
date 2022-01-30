@@ -42,8 +42,8 @@ console.log(sum);
 //Write a simple function that takes name as a parameter and then return a custom message.
 
 function customMessage(yourName){
-    var theMessage = yourName+ " " + "How are you ?"
-    return theMessage;
+    var message = yourName+ " " + ", How are you ?"
+    return message;
 }
 
 var myName = "Hasan";
