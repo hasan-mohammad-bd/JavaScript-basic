@@ -63,7 +63,7 @@ console.log(theMessage);
 
 //problem-2
 
-//Write a function for a food delivery service that sells 'Pizza" only. Each pizza coasts $10 This function takes the food name & quantity as parameter and then return a custom message with order info. This function should be smart enough to handle wrong parameter inputs.
+//Write a function for a food delivery service that sells 'Pizza" only. Each pizza coasts $10. This function takes the food name & quantity as parameter and then return a custom message with order info. This function should be smart enough to handle wrong parameter inputs.
 //---------------------------------------------------
 //here:
 //requirement: name and quantity
