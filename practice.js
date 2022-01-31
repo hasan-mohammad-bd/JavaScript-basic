@@ -58,10 +58,10 @@ for (i = 0; i < students.length; i++) {
 
 //Problem-3 
 // write a program where student are more than 23 years old, use while and for loop instead
- 
+
+//with while loop  
 var studentAge = [19,20,31,83,98,23,32]
 
-//with while loop 
 var i = 0;
 while (i < studentAge.length) {
     var student = studentAge[i];
