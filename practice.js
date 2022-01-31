@@ -79,3 +79,62 @@ for(i=0; i<studentAge.length; i++){
     }
 }
 
+
+// make factorial
+// make a factorial function
+
+function factorialOutput(number){
+    var factorial = 1;
+    var i = 1;
+    while(i <= number){
+        factorial = factorial * i;
+        i++;
+    }
+    return factorial;
+
+}
+
+var answer = factorialOutput(7)
+console.log(answer);
+
+// factorial with for loop
+
+var factorial = 1;
+function findFactorial(number){
+    for(var i = 1; i <= number; i++) {
+         factorial = factorial * i;
+
+    }
+    return factorial;
+}
+
+var answer = findFactorial(8)
+console.log(answer);
+
+//reverse factorial with for Loop
+
+var factorial = 1;
+function factorialReverse(number) {
+    for(i = number; i >= 1; i--) {
+        factorial = factorial * i
+    }
+    return factorial;
+}
+
+var theReverseFactorial= factorialReverse(7)
+console.log(theReverseFactorial);
+
+//reverse factorial with while Loop
+
+var factorial = 1;
+function factorialReverseWhile(number) {
+    var i = number;
+    while(i >= 1){
+        factorial = factorial * i;
+        i--
+    }
+    return factorial;
+}
+
+var theReverseWhile = factorialReverseWhile(9)
+console.log(theReverseWhile);
