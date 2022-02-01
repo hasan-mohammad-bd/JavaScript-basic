@@ -20,3 +20,5 @@ function arrayTotal(numbers) {
 
 const total = arrayTotal([76,45,34,34])
 console.log(total);
+
+
