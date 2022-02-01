@@ -138,3 +138,20 @@ function factorialReverseWhile(number) {
 
 var theReverseWhile = factorialReverseWhile(9)
 console.log(theReverseWhile);
+
+
+//quize problems
+function add(a, b){
+    return a + b;
+  }
+  console.log(add("adam" + "eve"))
+
+  var first = "Rafsan";
+var second = "Samira";
+
+var temp =first;
+first = second;
+second = temp;
+
+console.log(first);
+console.log(second);
