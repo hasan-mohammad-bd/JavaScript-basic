@@ -28,14 +28,11 @@ function isOdd(number) {
     return false;
 }
 
-//is add fnction with !=
+//is add function with !=
 function isAddWithUnqual(number) {
     if (number % 2 != 0){
         return true;
     }
     return false;
 }
-
-const isMyNumberOdd = isAddWithUnqual(myNumber);
-console.log(isMyNumberOdd);
 
