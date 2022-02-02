@@ -1,4 +1,4 @@
-//You have to organized your mind.
+//You have to organize your mind.
 //=================================
 //dont give up, just keep trying.
 //=================================
