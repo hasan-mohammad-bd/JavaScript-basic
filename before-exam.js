@@ -151,3 +151,29 @@ function animalInTotal(km){
 }
 
 console.log(animalInTotal(70));
+
+//total shopping card price calculation;
+
+
+
+
+function totalPrice(array) {
+  var totalPriceOfProduct;
+  var totalPrice = 0;
+  for(let element of cart){
+      totalPriceOfProduct = element.price * element.quantity;
+      totalPrice = totalPrice + totalPriceOfProduct;
+
+  }
+  return totalPrice;
+  
+}
+const cart = [
+    {name: "laptop", price: 5500, quantity: 1},
+    {name: "shirt", price: 100, quantity: 1},
+    {name: "watch", price: 1363, quantity: 1},
+    {name: "phone", price: 5500, quantity: 1}
+];
+
+
+console.log(totalPrice(cart));
