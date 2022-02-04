@@ -101,10 +101,5 @@ function checkGPA(marks){
 console.log(checkGPA(marks));
 
 //find the largest element of an array;
+//homework
 
-function largestElement(array){
-    let largest = array[0];
-    
-}
-
-//let array - [2,4,5,6,8]
